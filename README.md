@@ -1,5 +1,3 @@
-GitHub:
-
 📊 Proyecto – Predicción de Fuga de Clientes
 
 Objetivo del proyecto

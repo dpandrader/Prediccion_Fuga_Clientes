@@ -1,13 +1,19 @@
-Al operador de telecomunicaciones Interconnect le gustaría poder pronosticar su tasa de cancelación de clientes. Si se descubre que un usuario o usuaria planea irse, se le ofrecerán códigos promocionales y opciones de planes especiales. El equipo de marketing de Interconnect ha recopilado algunos de los datos personales de sus clientes, incluyendo información sobre sus planes y contratos.
+GitHub:
 
-Servicios de InterconnectC
-Interconnect proporciona principalmente dos tipos de servicios:
-	1. Comunicación por teléfono fijo. El teléfono se puede conectar a varias líneas de manera simultánea.
-	2. Internet. La red se puede configurar a través de una línea telefónica (DSL, línea de abonado digital) o a través de un cable de fibra óptica.
- 
-Algunos otros servicios que ofrece la empresa incluyen:
-	• Seguridad en Internet: software antivirus (ProtecciónDeDispositivo) y un bloqueador de sitios web maliciosos (SeguridadEnLínea).
-	• Una línea de soporte técnico (SoporteTécnico).
-	• Almacenamiento de archivos en la nube y backup de datos (BackupOnline).
-	• Streaming de TV (StreamingTV) y directorio de películas (StreamingPelículas)
-La clientela puede elegir entre un pago mensual o firmar un contrato de 1 o 2 años. Puede utilizar varios métodos de pago y recibir una factura electrónica después de una transacción.
+📊 Proyecto – Predicción de Fuga de Clientes
+
+Objetivo del proyecto:
+Desarrollar un modelo de machine learning para predecir la tasa de cancelación de clientes en la empresa de telecomunicaciones Interconnect. El propósito es identificar con anticipación qué usuarios podrían darse de baja, para que el área de marketing pueda ofrecerles promociones o planes especiales que ayuden a retenerlos.
+
+Procedimientos:
+Exploración y análisis de los datos de clientes (información personal, tipo de contrato y servicios adquiridos).
+Limpieza y preparación de los datos, incluyendo codificación de variables categóricas y tratamiento de valores faltantes.
+Construcción y prueba de distintos modelos de clasificación (Logistic Regression, Random Forest, LightGBM).
+Optimización de hiperparámetros y validación cruzada para mejorar el rendimiento de los modelos.
+Evaluación de métricas como F1-score, AUC-ROC y precisión, priorizando la detección de clientes en riesgo de fuga.
+
+Conclusiones:
+
+El modelo entrenado logró identificar clientes con alta probabilidad de cancelar su contrato, ofreciendo una base sólida para la retención proactiva.
+Se cumplieron los objetivos de predicción, alcanzando métricas satisfactorias en términos de precisión y F1-score.
+Todo el flujo de trabajo se realizó con Python, pandas, scikit-learn, LightGBM, matplotlib y seaborn.
